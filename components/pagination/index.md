@@ -1,10 +1,10 @@
 ---
 layout: component-category
 group: components
-subgroup: text 2
-permalink: /components/text/
+subgroup: pagination
+permalink: /components/pagination/
 
-title: Text 4
+title: Pagination
 description: Text components description
 
 ---

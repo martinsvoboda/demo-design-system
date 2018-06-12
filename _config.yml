@@ -19,5 +19,13 @@ github_username:  martinsvoboda
 # Build settings
 markdown: kramdown
 
-plugins:
-- jekyll-menus
+collections:
+  examples:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: examples
+    values:
+      layout: code

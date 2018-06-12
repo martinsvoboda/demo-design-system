@@ -1,8 +1,7 @@
 ---
 layout: component-category
-title: Components
+title: Komponenty
 group: components
 permalink: /components/
 description: Component overview description
-menu: header
 ---

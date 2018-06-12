@@ -4,4 +4,5 @@ title: Components
 group: components
 permalink: /components/
 description: Component overview description
+menu: header
 ---

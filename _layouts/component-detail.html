@@ -6,6 +6,14 @@ layout: default
 
 {% include page-header.html %}
 
+{% include render.html component='01-molecules-02-blocks-card' %}
+
+{% comment %}
+{% include {{ markupOnlyPath }} %}
+{% endcomment %}
+
+{% include component-example.html markupOnlyPath='/patterns/01-molecules-02-blocks-card/01-molecules-02-blocks-card.rendered.html' %} 5
+
 <section class="c-section">
 
 	<div class="c-tabs js-tabs">
@@ -16,8 +24,6 @@ layout: default
 				<a href="#tab-{{ variation.title | downcase | replace: ' ', '-' }}" class="c-tabs__link js-tab" data-code-tabs="tab-{{ variation.title | downcase | replace: ' ', '-' }}">{% if variation.title %}{{ variation.title }}{% endif %}</a>
 			</li><!-- end c-tabs__item -->
 			{% endfor %}
-
-
 		</ul><!-- end c-tabs__list -->
 
 		<div class="c-tabs__body">
@@ -111,7 +117,7 @@ layout: default
 
 					<div class="c-tabs__panel js-tabs-panel" id="html-{{ forloop.index }}">
 
-						{% capture markupOnlyPath %}/patterns/{{ componentString }}/{{ componentString }}.markup-only.html{% endcapture %}
+						{% capture markupOnlyPath %}/patterns/{{ componentString }}/{{ componentString }}.rendered.html{% endcapture %}
 
 						<div class="pattern-code">
 							<button class="c-btn pattern-code-copy-btn" data-clipboard-target="#pattern-code-{{ forloop.index }}">Copy</button>
@@ -203,6 +209,8 @@ layout: default
 	</div><!--end c-table-container-->
 
 </section><!-- end c-section -->
+
+{{ content }}
 
 <section class="c-section">
 

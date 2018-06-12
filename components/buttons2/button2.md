@@ -1,26 +1,20 @@
 ---
 layout: component-detail
 group: components
-subgroup: blocks-and-cards
-permalink: /components/blocks-and-cards/card.html
+subgroup: buttons
+permalink: /components/buttons/button.html
+menus: header
 
-title: Card 
-description: This is a card. yes2
-status: Complete
-
+title: Button 2
+description: Button description
 
 variations:
-- title: Default card
-  description: Card description
-  styleModifier: c-card
+- title: Button
+  description: Button description
+  styleModifier: c-btn
   includeClassification: molecules
   includeCategory: 02-blocks
   includeName: card
-- title: Codepen block
-  description: Codepen block description
-  styleModifier: c-card
-  codepenUser: frostyweather
-  codepenID: EbgJYG
 
 usage:
 - title: When to use
@@ -52,7 +46,5 @@ fine-print:
 - version: 0.3
   update: April 27, 2017
   owner: Jane Doe
+
 ---
-
-
-Bla bla blas

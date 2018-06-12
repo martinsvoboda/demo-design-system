@@ -1,3 +1,38 @@
+
+{% for item in site.data.samplelist.toc %}
+<h3>{{ item.title }}</h3>
+  <ul>
+	{% for entry in item.subfolderitems %}
+	  <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+	{% endfor %}
+  </ul>
+{% endfor %}
+test2
+
+
+<ul>
+	{% for item in site.menus.header %}
+	  <li class="menu-item-{{ loop.index }}">
+		<a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+	  </li>
+	{% endfor %}
+</ul>
+
+{% if menu %}
+	<ul>
+	{% for item in menu %}
+	  <li class="menu-item-{{ loop.index }}">
+		<a href="{{ item.url }}" title="Go to {{ item.title }}">{{ item.title }}</a>
+		{% if item.children %}
+		  {% assign menu = item.children %}
+		  {% include menu.html %}
+		{% endif %}
+	  </li>
+	{% endfor %}
+	</ul>
+{% endif %}
+
+
 <nav class="c-primary-nav" role="navigation">
 
 	<ul class="c-primary-nav__list c-primary-nav__list--flush js-nav-panel" role="tablist" aria-multiselectable="true">
@@ -94,7 +129,7 @@
 
 				{% include primary-nav-item.html label='Blocks and cards' subgroup='blocks-and-cards' %}
 
-        {% include primary-nav-item.html label='Buttons' subgroup='buttons' %}
+        		{% include primary-nav-item.html label='Buttons' subgroup='buttons' %}
 
 				{% include primary-nav-item.html label='Charts and graphs' subgroup='charts-and-graphs' %}
 

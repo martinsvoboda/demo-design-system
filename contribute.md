@@ -33,3 +33,11 @@ Pro vložení sub navigace uveďte parametr skupiny. Podpoložky se vloží auto
 ## Přidání stránky
 
 ## Přidání komponenty
+
+## Utility
+
+Pro zobrazení náhledu kódu komponenty na stránce můžete použít::
+
+    {% include pattern_live.html path='_examples/buttons2/button2.html' %}
+
+    {% include pattern_code.html path='_examples/buttons2/button2.html' %}

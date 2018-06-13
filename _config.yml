@@ -20,12 +20,5 @@ github_username:  martinsvoboda
 markdown: kramdown
 
 collections:
-  examples:
+  patterns:
     output: true
-
-defaults:
-  - scope:
-      path: ""
-      type: examples
-    values:
-      layout: code

@@ -14,30 +14,3 @@ Since a design system is made up of component code, guidelines, documentation, d
 
 ## Support
 Cross-linking to the <a href="{{ "/support.html" | prepend: site.baseurl }}">support page</a> is a good idea here.
-
-
-
-## Instalace
-
-
-## Práce s navigací
-
-Navigaci lze upravovat v _includes/navigation.html. Pro vložení položky využijte::
-
-    {% include navigation-item.html path='/index.html' label='Úvod' %}
-
-Pro vložení sub navigace uveďte parametr skupiny. Podpoložky se vloží automaticky na základě jména skupiny::
-
-    {% include navigation-item.html group='page-templates' label='Šablony stránek' %}
-
-## Přidání stránky
-
-## Přidání komponenty
-
-## Utility
-
-Pro zobrazení náhledu kódu komponenty na stránce můžete použít::
-
-    {% include pattern_live.html path='_examples/buttons2/button2.html' %}
-
-    {% include pattern_code.html path='_examples/buttons2/button2.html' %}

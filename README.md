@@ -1,6 +1,6 @@
 # Design System Template
 
-Design System Template is a boilerplate for creating and documenting your principles, style guides and patterns for your organization's design system. It provides just enough IA and hooks to get you going. As a bonus, I've provided links to helpful resources and inspiration to help you as you create your own custom design system. It is based on Brad Frost [Style Guide Guide](https://github.com/bradfrost/style-guide-guide/). The original code was cleaned and reworked, which leads to more straightforward maintenance of patterns and pages. Also we speed up site generation.
+Design System Template is a boilerplate for creating and documenting your principles, style guides and patterns for your organization's design system. It provides just enough IA and hooks to get you going. As a bonus, I've provided links to helpful resources and inspiration to help you as you create your own custom design system. It is based on Brad Frost [Style Guide Guide](https://github.com/bradfrost/style-guide-guide/). The original code was cleaned and reworked, which leads to more straightforward maintenance of patterns and pages. Also, we speed up site generation.
 
 [See the demo here](https://martinsvoboda.github.io/mpsv-design-system/)
 
@@ -11,14 +11,14 @@ Style Guide Guide is built using [Jekyll](https://jekyllrb.com/), a static site 
 ## Installation
 
 1. [Install Jekyll](https://jekyllrb.com/docs/installation/)
-2. Download or clone the files from the [repository on Github](https://github.com/martinsvoboda/mpsv-design-system). If you starting with GIT see [simple guide](http://rogerdudler.github.io/git-guide/), you can use [GitHub desktop klient](https://desktop.github.com/)
+2. Download or clone the files from the [repository on Github](https://github.com/martinsvoboda/mpsv-design-system). If you starting with GIT see [this simple guide](http://rogerdudler.github.io/git-guide/), you can use [GitHub desktop client](https://desktop.github.com/)
 3. In the command line, navigate to the root of the project and run the `jekyll serve` command. This will build the static site and watch for changes.
 3. Visit `http://127.0.0.1:4000/` in your browser to see the style guide.
 
 
 ## Build your design system
 
-From here, obviously the point is to customize the style guide for your needs and populate it with your content and components. Content is formatted in Markdown syntax. See [how to use it](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Markdown pages (.md files) are sorted to following structure, which we usually use for our projects:
+From here, the point is to customize the style guide for your needs and populate it with your content and components. Content is formatted in Markdown syntax. See [how to use it](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Markdown pages (.md files) are sorted to following structure, which we usually use for our projects:
 
     ```
     demo-design-system/
@@ -47,13 +47,13 @@ From here, obviously the point is to customize the style guide for your needs an
     └── [other files]
     ```
 
-To understand of other files and folder see [Jekyll directory structure](https://jekyllrb.com/docs/structure/)
+To understand other files and folders see [Jekyll directory structure](https://jekyllrb.com/docs/structure/)
 
 ### Add page
 
-If you want to create new page:
+If you want to create a new page:
 
-1. Create new file `my-first-page.md` in project root folder with content:
+1. Create a new file `my-first-page.md` in the project root folder with this content:
 
     ```
     ---
@@ -72,7 +72,7 @@ If you want to create new page:
 
 ### Add pattern
 
-1. Patterns (usualy styles, components, page templates etc.) consists of description of usage and pattern preview. Description is stored as Markdown page with following syntax:
+1. Patterns (usually styles, components, page templates etc.) consist of the description of usage and pattern preview. The description is stored as Markdown page with the following syntax:
 
     ```
     ---
@@ -94,8 +94,8 @@ If you want to create new page:
     Lorem ipsum
     ```
 
-2. For each variation you could set `pattern` parameter, which refers to file with code of the component stored inside `_patterns/` folder.
-According the definition above you have to create file `button/button-primary.html` with this content:
+2. For each variation, you should set `pattern` parameter, which refers to file with code. These files have to be stored inside `_patterns/` folder.
+According to the definition above you have to create file `button/button-primary.html` with this content:
 
     ```
     ---
@@ -112,22 +112,22 @@ According the definition above you have to create file `button/button-primary.ht
 
 ### Update pattern preview layout
 
-Certainly your patterns previews will need external CSS and JS files to render correctly. You can edit HTML template used for live preview in _layouts/pattern.html. Necessary assets (CSS, JS, fonts etc.) place into `assets/` folder.
+Certainly, your patterns previews will need external CSS and JS files to render correctly. You can edit HTML template used for live preview in _layouts/pattern.html. Necessary assets (CSS, JS, fonts etc.) place into `assets/` folder.
 
-If you want to have several layouts to render components, just create new layout file in `_layouts` folder and change layout property in file with a pattern`s code.
+If you want to have several layouts to render components, just create new layout file in `_layouts` folder and change layout property in file with pattern`s code.
 
 
-### How to change navigation
+### How to change the navigation
 
-If you want to change navigation structure, change it inside `_includes/navigation.html`.
+If you want to change the navigation structure, change it inside `_includes/navigation.html`.
 
-You can use simple snippet to create new navigation link:
+You can use the simple snippet to create new navigation link:
 
     ```
     {% include navigation-item.html path='/index.html' label='Home' %}
     ```
 
-Or if you want to create submenu, set `group` parameter. Pages with the same group will be added automatically as sublink:
+Or if you want to create a submenu, set `group` parameter. Pages with the same group will be added automatically as sublink:
 
     ```
     {% include navigation-item.html group='components' label='Components' %}

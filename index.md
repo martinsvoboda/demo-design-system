@@ -1,6 +1,6 @@
 ---
-layout: page
 title: Style Guide Guide
+layout: page
 description: A boilerplate for creating superb style guides 2
 ---
 

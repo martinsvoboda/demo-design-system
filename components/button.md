@@ -1,11 +1,9 @@
 ---
+title: Tlačítko
 layout: component-detail
 group: components
-
-title: Tlačítko
 description: Button description
 status: Complete
-
 variations:
 - title: Default
   description: Default buttons description ...

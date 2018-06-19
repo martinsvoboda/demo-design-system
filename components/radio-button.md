@@ -3,10 +3,7 @@ title: Přepínače
 permalink: "/components/radio-button.html"
 layout: component-detail
 group: components
-description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam ante.
-  Nulla pulvinar eleifend sem. Sed vel lectus. Donec odio tempus molestie, porttitor
-  ut, iaculis quis, sem. Nullam lectus justo, vulputate eget mollis sed, tempor sed
-  magna. Aenean fermentum risus id tortor. Vivamus porttitor turpis ac leo.
+description: Využívá se v případě, že má uživatel vybrat jednu z možností. Pro více než dvě možnosti se přepínače zarovnávají pod sebe. Přepínače by měly být dostatečně velké, aby se daly snadno použít na PC (myš) ale i dotykových zařízních(mobil, tablet).
 
 variations:
 - title: Výchozí

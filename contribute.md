@@ -15,3 +15,4 @@ Since a design system is made up of component code, guidelines, documentation, d
 
 ## Support
 Cross-linking to the <a href="{{ "/support.html" | prepend: site.baseurl }}">support page</a> is a good idea here.
+

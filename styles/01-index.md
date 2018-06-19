@@ -1,10 +1,9 @@
 ---
+title: Styles
+permalink: "/styles/"
 layout: landing
 type: landing
 group: styles
-permalink: /styles/
-
-title: Styles
 description: The attributes of the brand
 ---
 

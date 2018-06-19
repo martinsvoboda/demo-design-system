@@ -1,7 +1,8 @@
 ---
-layout: page
 title: Contributing to the design system
-description: This page explains the process (or processes) by which the design system gets updated
+layout: page
+description: This page explains the process (or processes) by which the design system
+  gets updated
 ---
 
 ## People

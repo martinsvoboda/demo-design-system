@@ -1,8 +1,8 @@
 ---
+title: Code conventions
+permalink: "/guidelines/code.html"
 layout: page
 group: guidelines
-permalink: /guidelines/code.html
-title: Code conventions
 description: Guidelines for the design system's code base.
 ---
 

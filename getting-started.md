@@ -1,7 +1,8 @@
 ---
-layout: page
 title: Getting Started
-description: The getting started page should provide information for how to get up and running with the design system.
+layout: page
+description: The getting started page should provide information for how to get up
+  and running with the design system.
 ---
 
 ## Downloading

@@ -1,9 +1,9 @@
 ---
-title: Formulářové pole
+title: Formulářové  pole
 permalink: "/components/input.html"
 layout: component-detail
 group: components
-description: Velikost pole musí zohledňovat přípsutný počet znaků daného datového pole (proporčně přizpůsobené údajům, které do nich budou zadávané). Je potřeba se ujistit, že budou uživatelé schopni potřebné údaje zadat i na menších obrazovkách. Na menších obrazovkách je vhodné roztáhnout pole přes celou šířku obrazovky
+description: Používejte formulářové pole ve [formulářích](http://127.0.0.1:4000/demo-design-system/guidelines/forms.html), které pomáhají lidem zadávat, vybírat a vyhledávat text. Textová pole se obvykle nacházejí ve formuláři, ale mohou také být součástí modálu, vyhledávání nebo karty. Typy běžného zadávání textu zahrnují uživatelská jména, popisy, adresy URL, e-maily.
 
 variations:
 - title: Výchozí
@@ -19,12 +19,16 @@ variations:
 
 ## Použití
 
-Lorem ipsum
+Při určivání délky formulářového pole musíme brát v potaz maximální možný počet znaků, který bude uživatel do pole zadávat.
 
-## Dokumentace
+![Popis částí formulářového pole](/Users/david.zak/Documents/GitHub/demo-design-system/images/input.png "Formulářové pole")
 
-Lorem ipsum
+1. Označení (Label) - Krátké označení, které by mělo uvést jaké informace se mají do pole vyplnit. Zrovnáváme doleva.
 
-## FAQ
+2. Pole pro vyplnění (Input area)  - Místo kam uživatelé vkládají text.
 
-Lorem ipsum
+3. Zástupný text (Placeholder text) - Dává informaci jak by pole mělo být používáno (např. "Začněte psát"). Používejte pouze tam, kde je třeba objasnění, snažte se jej nepoužívat nadměrně.
+
+## Užitečné odkazy
+
+[Pravidla pro formuláře](http://127.0.0.1:4000/demo-design-system/guidelines/forms.html)

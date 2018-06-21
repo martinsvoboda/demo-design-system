@@ -1,5 +1,5 @@
 ---
-title: Tlačítko
+title: Tlačítko - změna
 layout: component-detail
 group: components
 description: Button description

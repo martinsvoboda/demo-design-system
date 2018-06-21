@@ -8,13 +8,13 @@ description: Je potřeba se vyhýbat použití rozbalovacích seznamů. Namísto
 variations:
 - title: Výchozí
   description: Description of standard selectbox..
-  pattern: selectbox/selectbox-normal
+  pattern: selectbox/selectbox-normal.html
 - title: Nedostupný
   description: Description of standard selectbox..
-  pattern: selectbox/selectbox-disabled
+  pattern: selectbox/selectbox-disabled.html
 - title: Chyba
   description: Description of standard selectbox...
-  pattern: selectbox/selectbox-error
+  pattern: selectbox/selectbox-error.html
 ---
 
 ## Použití

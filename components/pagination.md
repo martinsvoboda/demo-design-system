@@ -10,7 +10,7 @@ description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam a
 variations:
 - title: Výchozí
   description: Description of standard pagination...
-  pattern: pagination/pagination
+  pattern: pagination/pagination.html
 ---
 
 ## Použití

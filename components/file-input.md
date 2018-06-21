@@ -8,10 +8,10 @@ description: Pro nahrání souboru použijte ovládací prvek, který umožňuje
 variations:
 - title: Výchozí
   description: Description of File Input...
-  pattern: fileinput/fileinput-normal
+  pattern: fileinput/fileinput-normal.html
 - title: Nedostupný
   description: Description of File Input...
-  pattern: fileinput/fileinput-disabled
+  pattern: fileinput/fileinput-disabled.html
 ---
 
 ## Použití

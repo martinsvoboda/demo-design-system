@@ -8,13 +8,13 @@ description: Používejte formulářové pole ve [formulářích](http://127.0.0
 variations:
 - title: Výchozí
   description: Description of standard input...
-  pattern: input/input-normal
+  pattern: input/input-normal.html
 - title: Nedostupný
   description: Description of standard input...
-  pattern: input/input-disabled
+  pattern: input/input-disabled.html
 - title: Chyba
   description: Description of standard input...
-  pattern: input/input-error
+  pattern: input/input-error.html
 ---
 
 ## Použití

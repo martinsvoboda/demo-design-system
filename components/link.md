@@ -11,10 +11,10 @@ description: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam a
 variations:
 - title: Standardní odkazy
   description: Description of standard normal links...
-  pattern: link/link-normal
+  pattern: link/link-normal.html
 - title: Odkazy s ikonou
   description: Description of standard links with icon...
-  pattern: link/link-icon
+  pattern: link/link-icon.html
 ---
 
 ## Použití

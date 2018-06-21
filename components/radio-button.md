@@ -8,13 +8,13 @@ description: Využívá se v případě, že má uživatel vybrat jednu z možno
 variations:
 - title: Výchozí
   description: Description of standard radio-button...
-  pattern: radio-button/radiobutton-normal
+  pattern: radio-button/radiobutton-normal.html
 - title: Nedostupný
   description: Description of standard radio-button...
-  pattern: radio-button/radiobutton-disabled
+  pattern: radio-button/radiobutton-disabled.html
 - title: Chyba
   description: Description of standard radio-button...
-  pattern: radio-button/radiobutton-error
+  pattern: radio-button/radiobutton-error.html
 ---
 
 ## Použití

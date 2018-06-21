@@ -8,13 +8,13 @@ description: Používá se pro výběr více možností. Vždy je potřebné už
 variations:
 - title: Výchozí
   description: Description of standard checkbox...
-  pattern: checkbox/checkbox-normal
+  pattern: checkbox/checkbox-normal.html
 - title: Nedostupný
   description: Description of standard checkbox...
-  pattern: checkbox/checkbox-disabled
+  pattern: checkbox/checkbox-disabled.html
 - title: Chyba
   description: Description of standard radio-button...
-  pattern: checkbox/checkbox-error
+  pattern: checkbox/checkbox-error.html
 ---
 
 ## Použití

@@ -1,23 +1,39 @@
----
-title: MPSV Design System
-timezone: UTC
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Demo Design System
+email: martin.svoboda@lundegaard.eu
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: "/demo-system-template" # the subpath of your site, e.g. /blog
+url: "https://martinsvoboda.github.io/" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-remote-theme
+
+# Setup pattern collection
 collections:
   patterns:
-    title: Patterns
     output: true
-  posts:
-    title: Posts
-    output: true
-  uploads:
-    title: Uploads
-    output: true
-email: martin.svoboda@gmail.com
-description: 'Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
 
-'
-baseurl: "/demo-design-system"
-url: https://martinsvoboda.github.io/
-github_url: https://github.com/martinsvoboda/demo-design-system
-markdown: kramdown
+
+# Set theme
+remote_theme: lundegaard/design-system-template  # you can specify git branch or commit lundegaard/design-system-template@v0.1.0
+
+# Overriding default colors
+branding:
+  logo_path: '/assets/logo-missing.svg'
+  navigation_background_color: '#174eaf'
+  navigation_link_color: '#f2bd3e'
+  navigation_link_color_hover: '#fff'
+  main_background_color: '#f5f5f5'

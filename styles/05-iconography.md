@@ -1,5 +1,5 @@
 ---
-title: Iconography
+title: Ikony
 permalink: "/styles/iconography.html"
 layout: page
 type: detail

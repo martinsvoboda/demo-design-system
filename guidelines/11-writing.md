@@ -1,10 +1,8 @@
 ---
-title: Writing
+title: Pravidla pro tvorba obsahu
 permalink: "/guidelines/writing.html"
 layout: page
 type: detail
 group: guidelines
-description: Guidelines for writing best practices
+description: Návody jak vytvářet obsah tak, aby byl pro občany čitelný.
 ---
-
-Guidelines go here.

@@ -1,6 +1,7 @@
 ---
-title: Contributing to the design system
+title: Rozvoj
 layout: page
+group: getting-started
 description: This page explains the process (or processes) by which the design system
   gets updated
 ---

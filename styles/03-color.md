@@ -1,5 +1,5 @@
 ---
-title: Color
+title: Barvy
 permalink: "/styles/color.html"
 layout: page
 type: detail

@@ -1,29 +1,20 @@
-- title: Introduction
+- title: Úvod
   url: /
 
-- title: Getting started
-  url: /getting-started.html
+- title: Začínáme
+  group: getting-started
 
-- title: Guidelines
+- title: Pravidla
   group: guidelines
 
-- title: Styles
+- title: Styly
   group: styles
 
-- title: Components
+- title: Komponenty
   group: components
 
-- title: Utilities
-  group: utilities
-
-- title: Page templates
+- title: Šablony stránek
   group: page-templates
 
-- title: Downloads
+- title: Ke stažení
   url: /downloads.html
-
-- title: Support
-  url: /support.html
-
-- title: Contribute
-  url: /contribute.html

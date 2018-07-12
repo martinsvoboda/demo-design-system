@@ -1,5 +1,5 @@
 ---
-title: Typography
+title: Typografie
 permalink: "/styles/typography.html"
 layout: page
 type: detail

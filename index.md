@@ -1,18 +1,28 @@
 ---
-title: Style Guide Guide
+title: Design System MPSV
 layout: page
-description: A boilerplate for creating superb style guides 2
+description: Navrhujte weby v souladu s pravidly Ministerstva práce a sociálních věcí.
 ---
 
-The homepage of a style guide should provide high-level information around what the design system is, what benefits it provides, who it's for, and how to get started with it. Like any good index page, it should provide clear navigation to key parts of the website.
+Tento manuál vám pomůže vytvářet weby tak, aby byly konzistentní s weby Ministerstva práce a sociálních věcí. Neleznete zde pravidla, styly a komponenty.
 
-<div class="u-margin-bottom-double"><a href="{{ "/getting-started.html" | prepend: site.baseurl }}" class="c-btn">Get Started</a></div>
 
-## Design System Benefits
-Explain how the design system benefits users and the business. For inspiration, check out over 180 examples of design systems at [Styleguides.io](http://styleguides.io/examples).
+## Začínáme
 
-## App Gallery
-It can be a good idea to include a <a href="{{ "/gallery.html" | prepend: site.baseurl }}">list of applications</a> that use the design system. This helps provide credibility to the system, incentivizes teams to use the system, and shows components in the wild.
+Průvodce pro designery a vývojáře, kteří používají MPSV Design system poprvé. [Více](/demo-design-system/getting-started/01-designers.html)
 
-## Contributing info
-If it's desirable to have people from across the organization contribute to the design system, linking to the <a href="{{ "/contributing.html" | prepend: site.baseurl }}">contributing page</a> from the homepage could be a good idea.
+## Pravidla
+
+Obecná pravidla a doporučení pro vytváření stránek, tak aby byly dobře přístupné [Více](/demo-design-system/guidelines/04-accessibility.html)
+
+## Styly
+
+Pokyny pro použití a použití základních konstrukčních prvků. [Více](/demo-design-system/styles/color.html)
+
+## Komponenty
+
+Knihovna všech součástí design systému, složená z pokynů pro kód, použití a styl. [Více](/demo-design-system/components/)
+
+## Ke stažení
+
+Užitečné seznam nástrojů a odkazů, které vám pomohou používat MPSV Design system. [Více](/demo-design-system/resources.html)

@@ -1,9 +1,9 @@
 ---
 title: Textové pole
-permalink: "/components/input.html"
+description: Textová pole umožňují uživatelům vložit data na stránku.
 layout: component-detail
 group: components
-description: Textová pole umožňují uživatelům vložit data na stránku.
+
 
 variations:
 - title: Textové pole

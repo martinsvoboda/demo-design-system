@@ -1,26 +1,38 @@
 ---
-title: Tlačítko - změna
+title: Tlačítko
 layout: component-detail
 group: components
-description: Button description
+description: Tlačítka jsou uživateli používána pro spuštění akce.
 status: Complete
 variations:
-- title: Default
-  description: Default buttons description ...
+- title: Typy tlačítek
+  pattern: button/button-types.html
+- title: Výchozí tlačítka
   pattern: button/button-default.html
-- title: Primary
-  description: Primary buttons description ...
+- title: Primární tlačítka
   pattern: button/button-primary.html
+- title: Success buttons
+  pattern: button/button-success.html
 ---
 
-## Použití
 
-Lorem ipsum
+## Typy tlačítek
 
-## Dokumentace
+Existuje několik druhů tlačítek, které se používají lyší v kontextu použití
 
-Lorem ipsum
+| Typ               | Použití                                                                      |
+| ----------------- |------------------------------------------------------------------------------|
+| Výchozí           | Používáme .... | 
+| Primární          | Používáme .... | 
+| Success           | Používáme .... | 
+| Info              | Používáme .... | 
+| Warning           | Používáme .... | 
+| Danger            | Používáme .... | 
+| Primární          | Používáme .... | 
 
-## FAQ
 
-Lorem ipsum
+## Velikosti tlačítek
+
+## Disable state
+
+## Použití ikon
